@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+.programms {
+  padding-top: 120px;
+}
+
+@media (max-width: 796px) {
+  .programms {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  .programms {
+    padding-top: 10px;
+  }
+}

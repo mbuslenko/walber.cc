@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;subset=latin,cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon.ico" />
+    <title>Walber</title>
+  </head>
+  <body>
+    <header class="header header__fixed">
+      <div class="container header__content">
+        <div class="logo">
+          <img
+            class="logo__img"
+            src="./assets/img/svg/walber_full_logo.svg"
+            alt="Walber-logo"
+          />
+        </div>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#games" class="menu__link link-active link-games"
+                >Игры</a
+              >
+            </li>
+            <li class="menu__item">
+              <a href="#programms" class="menu__link link-programms"
+                >Программы</a
+              >
+            </li>
+            <li class="menu__item">
+              <a href="#download" class="menu__link link-download">Скачать</a>
+            </li>
+          </ul>
+
+          <div class="menu__nav-close">
+            <span class="menu__nav-close-line"></span>
+            <span class="menu__nav-close-line"></span>
+          </div>
+        </nav>
+
+        <div class="menu__burger burger">
+          <span class="burger__line burger__line-first"></span>
+          <span class="burger__line burger__line-second"></span>
+          <span class="burger__line burger__line-third"></span>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="about">
+        <div class="container">
+          <div class="logo about-logo">
+            <img
+              class="logo__img"
+              src="./assets/img/svg/walber_full_logo.svg"
+              alt="Walber-logo"
+            />
+          </div>
+          <h1 class="section-title about__title">
+            Каталог приложений по спецификациям компьютера
+          </h1>
+
+          <p class="about__desc">
+            Покажем в какие игры ты сможешь играть, с какими программами <br />
+            работать, а также где их легче всего скачать
+          </p>
+
+          <div class="about__picture">
+            <img class="about__img" src="./assets/img/walber_ui_final.webp" />
+          </div>
+        </div>
+      </section>
+
+      <section class="games" id="games">
+        <div class="container games__content">
+          <h2 class="section-title games__title">Игры</h2>
+          <div class="cards-field">
+            <div class="card">
+              <a href="#!" class="card__link">
+                <div class="card__picture">
+                  <img
+                    src="./assets/img/svg/console.svg"
+                    alt="Console"
+                    class="card__img"
+                  />
+                </div>
+                <h3 class="card__title">Список</h3>
+                <p class="card__desc">
+                  Получи готовый список игр, в которые ты гарантированно сможешь
+                  играть на своем компьютере
+                </p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="#!" class="card__link">
+                <div class="card__picture">
+                  <img
+                    src="./assets/img/svg/feedback.svg"
+                    alt="Feedback"
+                    class="card__img"
+                  />
+                </div>
+                <h3 class="card__title">Рейтинг</h3>
+                <p class="card__desc">
+                  Игры сортируются по рейтингу, это значит, что ты сразу увидишь
+                  лучшие проекты в индустрии
+                </p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="#!" class="card__link">
+                <div class="card__picture">
+                  <img
+                    src="./assets/img/svg/plan.svg"
+                    alt="Plan"
+                    class="card__img"
+                  />
+                </div>
+                <h3 class="card__title">План</h3>
+                <p class="card__desc">
+                  С нашим ручным конфигуратором ты сможешь увидеть доступный
+                  список игр не только на своем ПК, но и на других
+                  конфигурациях, что позволит тебе спланировать покупки нового
+                  железа
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="programms" id="programms">
+        <div class="container programms__content">
+          <h2 class="section-title programms__title">Программы</h2>
+          <div class="cards-field">
+            <div class="card">
+              <a href="#!" class="card__link">
+                <div class="card__picture">
+                  <img
+                    src="./assets/img/svg/website.svg"
+                    alt="Website"
+                    class="card__img"
+                  />
+                </div>
+                <h3 class="card__title">Список</h3>
+                <p class="card__desc">
+                  Узнай, с какими программами ты сможешь комфортно работать на
+                  своем компьютере
+                </p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="#!" class="card__link">
+                <div class="card__picture">
+                  <img
+                    src="./assets/img/svg/download.svg"
+                    alt="Download"
+                    class="card__img"
+                  />
+                </div>
+                <h3 class="card__title">Скачивание</h3>
+                <p class="card__desc">
+                  Мы предоставим самый простой способ скачать любую из
+                  представленных программ
+                </p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="#!" class="card__link">
+                <div class="card__picture">
+                  <img
+                    src="./assets/img/svg/planning.svg"
+                    alt="Planning"
+                    class="card__img"
+                  />
+                </div>
+                <h3 class="card__title">План</h3>
+                <p class="card__desc">
+                  Спланируй покупку новых комплектующих, исходя из доступных для
+                  них программ
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <h2 class="section-title">Как это работает?</h2>
+
+        <div class="work-container">
+          <div class="work__item">
+            <div class="work-width work-width_max work__mainblock">
+              <div class="work__col">
+                <div class="work__linewrapper">
+                  <div
+                    class="work__line"
+                    style="width: 2px; background-color: #d6d6d6"
+                  ></div>
+                  <div class="work__circle">
+                    <div class="work__number work__num-name work-name_md">
+                      1
+                    </div>
+                  </div>
+                </div>
+                <div class="work__block">
+                  <div class="work__block__title work__num-name work-name_lg">
+                    Скачай приложение
+                  </div>
+                  <div class="work__descr work__descr-text work__descr-text_xs">
+                    Скачай установщик прямо с этого сайта и запусти приложение
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work__item">
+            <div class="work-width work-width_max work__mainblock">
+              <div class="work__col work__flipped">
+                <div class="work__linewrapper">
+                  <div
+                    class="work__line"
+                    style="width: 2px; background-color: #d6d6d6"
+                  ></div>
+                  <div class="work__circle">
+                    <div class="work__number work__num-name work-name_md">
+                      2
+                    </div>
+                  </div>
+                </div>
+                <div class="work__block-flipped">
+                  <div class="work__block__title work__num-name work-name_lg">
+                    Выбери конфигурацию
+                  </div>
+                  <div class="work__descr work__descr-text work__descr-text_xs">
+                    Первым делом мы покажем тебе автоматически обнаруженные
+                    комплектующие, подтверди обнаруженные или выбери другие в
+                    специальном меню
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work__item">
+            <div class="work-width work-width_max work__mainblock">
+              <div class="work__col">
+                <div class="work__linewrapper">
+                  <div
+                    class="work__line"
+                    style="width: 2px; background-color: #d6d6d6"
+                  ></div>
+                  <div class="work__circle">
+                    <div class="work__number work__num-name work-name_md">
+                      3
+                    </div>
+                  </div>
+                </div>
+                <div class="work__block">
+                  <div class="work__block__title work__num-name work-name_lg">
+                    Пользуйся
+                  </div>
+                  <div class="work__descr work__descr-text work__descr-text_xs">
+                    Мы проверим твои комплектующие за долю секунды и сразу
+                    покажем тебе каталог из приложений, доступных для твоего
+                    компьютера
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="download" id="download">
+        <div class="download-main">
+          <h2 class="section-title download-title">Скачать</h2>
+          <div class="container">
+            <div class="download-desc">
+              Приложение ждёт. Осталось только загрузить установщик
+            </div>
+
+            <div class="download-buttons">
+              <ul>
+                <li class="windows">
+                  <a
+                    href="http://hashapp.github.io/WalberInstaller.exe"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <!--                     <svg
+                      class="download-logo"
+                      width="50"
+                      height="50"
+                      viewBox="0 0 50 50"
+                      focusable="false"
+                    >
+                      <path
+                        d="M1.589 23.55L1.572 8.24l18.839-2.558V23.55zM23.55 5.225l25.112-3.654V23.55H23.55zM48.669 26.69l-.006 21.979-25.112-3.533V26.69zM20.41 44.736l-18.824-2.58-.001-15.466H20.41z"
+                      ></path>
+                    </svg> -->
+                    Скачать для Windows
+                  </a>
+                </li>
+                <li class="macos">
+                  <a
+                    href="http://hashapp.github.io/WalberInstaller.exe"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <!--                     <svg
+                      class="download-logo"
+                      width="50"
+                      height="50"
+                      viewBox="0 0 50 50"
+                      focusable="false"
+                    >
+                      <path
+                        d="M39.054 34.065q-1.093 3.504-3.448 7.009-3.617 5.495-7.205 5.495-1.374 0-3.925-.897-2.411-.897-4.233-.897-1.71 0-3.981.925-2.271.953-3.701.953-4.261 0-8.439-7.261Q.001 32.075.001 25.29q0-6.392 3.168-10.485 3.14-4.037 7.962-4.037 2.019 0 4.962.841 2.916.841 3.869.841 1.262 0 4.009-.953 2.86-.953 4.85-.953 3.336 0 5.972 1.822 1.458 1.009 2.916 2.804-2.215 1.878-3.196 3.308-1.822 2.635-1.822 5.803 0 3.476 1.934 6.252t4.43 3.533zM28.512 1.179q0 1.71-.813 3.813-.841 2.103-2.607 3.869-1.514 1.514-3.028 2.019-1.037.308-2.916.477.084-4.177 2.187-7.205 2.075-3 7.009-4.149.028.084.07.308t.07.308q0 .112.014.28t.014.28z"
+                      ></path>
+                    </svg> -->
+                    Скачать для MacOs
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="download-error">
+          <h2 class="error-title">
+            Упс.. :( Скачивание недоступно для этого устройства
+          </h2>
+          <div class="error-desc">
+            К сожалению, Walber доступно только для ПК с операционной системой
+            Windows и MacOs, по этому вы не можете скачать его на свое
+            устройство. Перейдите на сайт с компьютера и мы обязательно
+            предоставим вам приложение!
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-mail">
+            <a href="mailto:m.buslenko@gmail.com" class="mail-link"
+              >m.buslenko@gmail.com</a
+            >
+          </div>
+          <div class="hashapp">(2021)</div>
+          <div class="location">Kyiv</div>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

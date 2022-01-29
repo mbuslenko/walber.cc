@@ -1,0 +1,40 @@
+@import './variables.scss';
+
+.footer {
+  background-color: #141414;
+}
+
+.footer-content {
+  padding: 60px 0;
+}
+
+.footer-mail {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-mail a {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.footer-mail a:hover {
+  color: #66ff00;
+}
+
+.hashapp,
+.location {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.location {
+  padding-top: 15px;
+}
+
+@media (max-width: 425px) {
+  .footer-content {
+    padding: 30px 0;
+  }
+}
